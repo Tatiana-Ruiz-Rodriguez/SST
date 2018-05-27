@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SST"
+             x:Class="SST.Views.IniciarSesion"
+             Title="IniciarSesion">
+    
+    <ContentPage.Content BackgroundColor="#f2f2f2">
+        <StackLayout Spacing="20" Padding="20" 
+                     VerticalOptions="Center">
+
+            <Image Source="sstapp.png"></Image>
+
+            <Entry Placeholder="Usuario"/>
+            <Entry Placeholder="Contraseña" IsPassword="True"></Entry>
+            <Button Style="{StaticResource ButtonPrimary}" Text="Ingresar"></Button>
+
+            <Label Text="Todos los derechos reservados"></Label>
+           
+        </StackLayout> 
+                    
+    </ContentPage.Content>
+
+</ContentPage>

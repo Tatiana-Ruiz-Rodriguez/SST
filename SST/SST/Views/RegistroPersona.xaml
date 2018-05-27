@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SST"
+             x:Class="SST.Views.RegistroPersona"
+             Title="RegistroPersona">
+    
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="20"
+                     VerticalOptions="Center">
+
+            <Label Text="Registrarme" FontSize="40" FontFamily="Calibri" HorizontalOptions="Center" Margin="30"></Label>
+            <Entry Placeholder="Nombres"/>
+            <Entry Placeholder="Correo"/>
+            <Entry Placeholder="Documento"/>
+            <Entry Placeholder="Contraseña" IsPassword="True"/>
+            <Button Text="Registrarme"></Button>
+
+            <Label Text="Todos los derechos reservados" HorizontalOptions="Center" Margin="30"></Label>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
