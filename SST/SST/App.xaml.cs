@@ -14,7 +14,7 @@ namespace SST
 		{
 			InitializeComponent();
 
-			MainPage = new SST.Views.RegistroPersona();
+			MainPage = new SST.Views.IniciarSesion();
 		}
 
 		protected override void OnStart ()
